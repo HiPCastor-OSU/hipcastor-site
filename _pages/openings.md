@@ -118,7 +118,3 @@ Successful candidates will also be independent, self-driven, with strong communi
 
 ### Applications for PhD 
 Please us the [graduate application portal](https://advanced.oregonstate.edu/portal/gr-app) to apply.
-
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
