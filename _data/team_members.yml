@@ -26,6 +26,13 @@
   number_educ: 1
   education1: MS @ Illinois Tech (2021)
 
+- name: <a href="https://ashish-ramrakhiani.github.io">Ashish Ramrakhiani</a>
+  photo: ashish.jpeg
+  info: MS Student, since 2023
+  email: ramrakha@oregonstate.edu
+  number_educ: 1
+  education1: BS @ KJSCE, Mumbai, India (2019)
+
 - name: "This could be you!"
   photo: rock.jpg
   info: See <a href="../openings">openings</a> for more info
