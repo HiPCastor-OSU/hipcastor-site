@@ -26,6 +26,27 @@
   number_educ: 1
   education1: MS @ Illinois Tech (2021)
 
+- name: <a href="https://github.com/shwgao">Shouwei Gao</a>
+  photo: shouwei.jpg
+  info: Ph.D. Student, since 2023
+  email: gaosho@oregonstate.edu
+  number_educ: 1
+  education1: MS @ UESTC (2020)
+
+- name: <a href="http://yun-jung.github.io">Yun Jung</a>
+  photo: YunJung.jpg
+  info: Ph.D. Student, since 2020
+  email: kuy@oregonstate.edu
+  number_educ: 1
+  education1: BS @ BTHU (2020)
+
+- name: <a href="http://haoyu.github.io">Haoyu Wang</a>
+  photo: haoyu.png
+  info: Ph.D. Student, since 2023
+  email: haoyu@oregonstate.edu
+  number_educ: 1
+  education1: BS @ XHU (2019)
+  
 - name: <a href="https://ashish-ramrakhiani.github.io">Ashish Ramrakhiani</a>
   photo: ashish.jpeg
   info: MS Student, since 2023
