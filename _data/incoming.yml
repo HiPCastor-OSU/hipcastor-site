@@ -1,0 +1,16 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+- name: <a href="https://www.linkedin.com/in/zehua-zhu-a20807197/">Zehua Zhu</a>
+  photo: zehua.jpg
+  info: Incoming, Spring 2025
+#  email: ramrakha@oregonstate.edu
+  number_educ: 1
+  education1: MS @ NYU (2024)
+
