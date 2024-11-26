@@ -1,0 +1,16 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+- name: <a href="https://github.com/spark0510/">Sungjae Park</a>
+  photo: rock.jpg
+  info: MS Alum, OSS contributor since 2023
+#  email: ramrakha@oregonstate.edu
+  number_educ: 1
+  education1: MS @ UFL, Gainesville, FL (2024)
+
