@@ -2,8 +2,8 @@
   description: Dynamic parallelism switching for efficient large language model serving.
   authors: Shouwei Gao, Junqi Yin, Feiyi Wang, Wenqian Dong
   link:
-    url: https://dipsa-qub.github.io/ICS2026-webpage/
-    display: Proceedings of the ACM International Conference on Supercomputing, 2026
+    url: https://arxiv.org/pdf/2602.22593
+    display: "arXiv preprint, 2026 (accepted at ICS '26)"
   highlight: 0
   series: "ICS '26"
 
@@ -11,8 +11,8 @@
   description: L0-regularized learning for unified feature and parameter adaptation in SciML workflows.
   authors: Shouwei Gao, Xu Zheng, Dongsheng Luo, Di Sheng, Wenqian Dong
   link:
-    url: ""
-    display: Proceedings of the 40th IEEE International Parallel and Distributed Processing Symposium, 2026
+    url: https://arxiv.org/pdf/2602.22537v1
+    display: "arXiv preprint, 2026 (accepted at IPDPS '26)"
   highlight: 0
   series: "IPDPS '26"
 
