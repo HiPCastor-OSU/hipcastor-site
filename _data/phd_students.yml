@@ -82,6 +82,13 @@
   number_educ: 1
   education1: BS @ Huazhong University of Science and Technology (2024)
 
+- name: <a href="https://github.com/Maricaya">Xulu Chu</a>
+  photo: xulu.png
+  info: Ph.D. student, since 2026
+  email: chuxu@oregonstate.edu
+  number_educ: 1
+  education1: MS @ DePaul University (2026)
+
 - name: "This could be you!"
   photo: rock.jpg
   info: See <a href="../openings">openings</a> for more info

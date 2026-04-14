@@ -21,6 +21,20 @@
   number_educ: 1
   education1: BS @ Bradley University, Illinois, USA (1999)
 
+- name: <a href="https://lucien-showcase.pages.dev/about/">Tse-Ting Lin</a>
+  photo: tse-ting.jpg
+  info: MS Student, since 2026
+  email: lintse@oregonstate.edu
+  number_educ: 1
+  education1: BS @ Tatung University, Taiwan (2021)
+
+- name: <a href="https://www.linkedin.com/in/phannawich/">Phannawich (Boss) Jadpotwanich</a>
+  photo: boss.jpg
+  info: MS Student, since 2026
+  email: jadpotwp@oregonstate.edu
+  number_educ: 1
+  education1: BS @ OSU, Oregon, US (2026)
+
 - name: <a href="https://nolcut.github.io/">Nolan Cutler</a>
   photo: Nolan.jpg
   info: Undergraduate Student, since 2025
@@ -28,9 +42,9 @@
   number_educ: 1
   education1: BS @ OSU, Oregon, US (2027 est.)
 
-- name: <a href="https://github.com/Chelsi-create">Chelsi Jain</a>
-  photo: Chelsi.jpeg
-  info: MS Student, since 2023
-  email: jainc@oregonstate.edu
-  number_educ: 1
-  education1: BS @ MPUAT, Rajasthan, India (2023)
+# - name: <a href="https://github.com/Chelsi-create">Chelsi Jain</a>
+#   photo: Chelsi.jpeg
+#   info: MS Student, since 2023
+#   email: jainc@oregonstate.edu
+#   number_educ: 1
+#   education1: BS @ MPUAT, Rajasthan, India (2023)
