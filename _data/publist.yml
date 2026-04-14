@@ -1,3 +1,12 @@
+- title: "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach"
+  description: Proposes a multi-objective framework for energy-aware test prioritization in high-performance computing environments
+  authors: Ninad Anklesaria, Manish Motwani
+  link:
+    url: "https://mmotwani.com/publications/publication_sources/Anklesaria26fse.pdf"
+    display: "Companion Proceedings of the ACM International Conference on the Foundations of Software Engineering (FSE), 2026"
+  highlight: 0
+  series: "FSE '26"
+
 - title: "FLYING SERVING: On-the-Fly Parallelism Switching for Large Language Model Serving"
   description: Dynamic parallelism switching for efficient large language model serving.
   authors: Shouwei Gao, Junqi Yin, Feiyi Wang, Wenqian Dong
