@@ -7,6 +7,15 @@
   highlight: 0
   series: "FSE '26"
 
+- title: "QProR: An Efficient Framework for Quantity-of-Interest Based Progressive Retrieval with Guaranteed Error Control"
+  description: Developing a progressive retreival framework tailored for known downstream quantities of interest.
+  authors: Wenbo Li, Qian Gong, Xuan Wu, Jieyang Chen, Qing Liu, Xubin He, Norbert Podhorszki, Scott Klasky, and Xin Liang.
+  link:
+    url: 
+    display: "to be updated (accepted at HPDC '26)"
+  highlight: 0
+  series: "HPDC '26"
+
 - title: "FLYING SERVING: On-the-Fly Parallelism Switching for Large Language Model Serving"
   description: Dynamic parallelism switching for efficient large language model serving.
   authors: Shouwei Gao, Junqi Yin, Feiyi Wang, Wenqian Dong
@@ -15,6 +24,42 @@
     display: "arXiv preprint, 2026 (accepted at ICS '26)"
   highlight: 0
   series: "ICS '26"
+
+- title: "Enabling Homomorphic Analytical Operations on Compressed Scientific Data with Multi-stage Decompression"
+  description: Co-designing scientific data compressors with downstream analytics to enable fast data analytics.
+  authors: Xuan Wu, Sheng Di, Tripti Agarwal, Kai Zhao, Xin Liang, Franck Cappello.
+  link:
+    url: https://arxiv.org/abs/2603.25206
+    display: "arXiv preprint, 2026 (accepted at ICDE '26)"
+  highlight: 0
+  series: "ICDE '26"
+
+- title: "Time-varying Vector Field Compression with Preserved Critical Point Trajectories"
+  description: Developing specific scientific data compressors which preserve critical point trajectories in time-varying vector fields.
+  authors: Mingze Xia, Yuxiao Li, Pu Jiao, Bei Wang, Xin Liang, Hanqi Guo
+  link:
+    url: https://arxiv.org/abs/2510.25143
+    display: "arXiv preprint, 2026 (accepted at ICDE '26)"
+  highlight: 0
+  series: "ICDE '26"
+
+- title: "pMSz: A Distributed Parallel Algorithm for Correcting Extrema and Morse Smale Segmentations in Lossy Compression"
+  description: Parallelizing feature-preserving lossy compressors on distributed systems with multiple GPUs.
+  authors: Yuxiao Li, Mingze Xia, Xin Liang, Bei Wang, Robert Underwood, Sheng Di, Hemant Sharma, Dishant Beniwal, Franck Cappello, Hanqi Guo.
+  link:
+    url: https://arxiv.org/abs/2601.01787
+    display: "arXiv preprint, 2026 (accepted at IPDPS '26)"
+  highlight: 0
+  series: "IPDPS '26"
+
+- title: "Mitigating Artifacts in Pre-quantization Based Scientific Data Compressors with Quantization-aware Interpolation"
+  description: Recovering lossily-compressed scientific data with a compression-inspired interpolation algorithm.
+  authors: Pu Jiao, Sheng Di, Jiannan Tian, Mingze Xia, Xuan Wu, Yang Zhang, Xin Liang, Franck Cappello.
+  link:
+    url: https://arxiv.org/abs/2602.20097
+    display: "arXiv preprint, 2026 (accepted at IPDPS '26)"
+  highlight: 0
+  series: "IPDPS '26"
 
 - title: "LUMOS: Democratizing SciML Workflows with L0-Regularized Learning for Unified Feature and Parameter Adaptation"
   description: L0-regularized learning for unified feature and parameter adaptation in SciML workflows.
@@ -51,6 +96,51 @@
 #     display: "AAAI Spring Symposium Series, 2025 | <a href=\"https://github.com/Picomp-lab/Hurricast/blob/main/HurriCast%20Slides.pdf\">slides</a> | <a href=\"https://github.com/Picomp-lab/Hurricast?tab=readme-ov-file\">code</a>"
 #   highlight: 0
 #   series: "AAAI SS '25"
+
+- title: "HP-MDR: High-performance and Portable Data Refactoring and Progressive Retrieval with Advanced GPUs"
+  description: Developing an efficient and portable progressive retrieval framework on GPUs.
+  authors: Yanliang Li, Wenbo Li, Qian Gong, Qing Liu, Norbert Podhorszki, Scott Klasky, Xin Liang, and Jieyang Chen
+  link:
+    url: https://dl.acm.org/doi/10.1145/3712285.3759845
+    display: Proceedings of the 38th ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis, 2025
+  highlight: 0
+  series: "SC '25"
+
+- title: "QPET: A Versatile and Portable Quantity-of-Interest-Preservation Framework for Error-Bounded Lossy Compression"
+  description: Developing an efficient scientific data compressor with guaranteed error control on certain family of downstream analysis.
+  authors: Jinyang Liu, Pu Jiao, Kai Zhao, Xin Liang, Sheng Di, and Franck Cappello
+  link:
+    url: https://www.vldb.org/pvldb/vol18/p2440-liang.pdf
+    display: Proceedings of the 51st International Conference on Very Large Data Bases, 2025
+  highlight: 0
+  series: "VLDB '25"
+
+- title: "TspSZ: An Efficient Parallel Error-Bounded Lossy Compressor for Topological Skeleton Preservation"
+  description: Developing an efficient scientific data compressor which preserve topological skeletons in vector fields.
+  authors: Mingze Xia, Bei Wang, Yuxiao Li, Pu Jiao, Xin Liang, Hanqi Guo.
+  link:
+    url: https://ieeexplore.ieee.org/document/11113238
+    display: Proceedings of the 41st IEEE International Conference on Data Engineering, 2025
+  highlight: 0
+  series: "ICDE '25"
+
+- title: "Enabling Efficient Error-controlled Lossy Compression for Unstructured Scientific Data"
+  description: Developing a tailored error-controlled lossy compressor for unstructured scientific data.
+  authors: Xuan Wu, Sheng Di, Congrong Ren, Pu Jiao, Mingze Xia, Cheng Wang, Hanqi Guo, Xin Liang*, Franck Cappello
+  link:
+    url: https://ieeexplore.ieee.org/document/11078539/
+    display: "Proceedings of the 39th IEEE International Parallel & Distributed Processing Symposium, 2025"
+  highlight: 0
+  series: "IPDPS '25 (Best Paper Award)"
+
+- title: "Improving the Efficiency of Interpolation-Based Scientific Data Compressors with Adaptive Quantization Index Prediction"
+  description: Developing a novel algorithm to leverage the decorrelation in intermediate compressed data formats.
+  authors: Pu Jiao, Sheng Di, Mingze Xia, Xuan Wu, Jinyang Liu, Xin Liang, Franck Cappello.
+  link:
+    url: https://ieeexplore.ieee.org/document/11078527
+    display: "Proceedings of the 39th IEEE International Parallel & Distributed Processing Symposium, 2025"
+  highlight: 0
+  series: "IPDPS '25"
 
 - title: "Framework for tracking metadata, lineage and model provenance in hybrid simulation-AI HPC exascale workflows"
   description: A framework for metadata, lineage, and model provenance tracking in hybrid simulation-AI exascale workflows.
