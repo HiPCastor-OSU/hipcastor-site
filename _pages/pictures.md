@@ -11,6 +11,13 @@ permalink: /pictures/
 
 <div class="hpc-pic-card">
   <figure>
+    <img src="{{ '/images/teampic/fthoskins-2026.jpg' | relative_url }}" loading="lazy" decoding="async" alt="Group BBQ 2026">
+    <figcaption>The group at our second annual BBQ at Ft. Hoskins</figcaption>
+  </figure>
+</div>
+
+<div class="hpc-pic-card">
+  <figure>
     <img src="{{ '/images/teampic/sc25.jpg' | relative_url }}" loading="lazy" decoding="async" alt="Group at SC '25">
     <figcaption>The group at SC '25 in St. Louis (including incoming faculty Xin Liang and his students!)</figcaption>
   </figure>
