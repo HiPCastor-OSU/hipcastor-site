@@ -1,3 +1,12 @@
+- title: "MemPower: Efficient Power Management with Fine-grained Memory Analysis and Modeling for HPC Workloads"
+  description: Develops a modeling, analysis, and instrumentation framework to optimize energy for memory-intensive HPC applications
+  authors: Nanda Velugoti, Joseph Manzano, Andres Marquez, Kyle Hale, Nathan Tallent
+  highlight: 0
+  link:
+    url: 
+    display: "to be updated (accepted at CLUSTER '26)"
+  series: "CLUSTER '26"
+
 - title: "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach"
   description: Proposes a multi-objective framework for energy-aware test prioritization in high-performance computing environments
   authors: Ninad Anklesaria, Manish Motwani
