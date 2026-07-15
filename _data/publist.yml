@@ -1,10 +1,13 @@
 - title: "MemPower: Efficient Power Management with Fine-grained Memory Analysis and Modeling for HPC Workloads"
-  description: Develops a modeling, analysis, and instrumentation framework to optimize energy for memory-intensive HPC applications
+  description: This paper develops a modeling, analysis, and instrumentation framework to optimize energy for memory-intensive HPC applications. Our novel modeling
+    framework identifies opportune, memory-intensive code regions, uses static binary instrumention to insert software-directed DVFS transitions in unmodified application code,
+    improving performance per Watt for HPC codes. 
   authors: Nanda Velugoti, Joseph Manzano, Andres Marquez, Kyle Hale, Nathan Tallent
-  highlight: 0
+  highlight: 1
+  image: mempower.png
   link:
-    url: 
-    display: "to be updated (accepted at CLUSTER '26)"
+    url: ""
+    display: Proceedings of the 28th IEEE International Conference on Cluster Computing (to appear)
   series: "CLUSTER '26"
 
 - title: "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach"
@@ -202,11 +205,11 @@
   description: This paper introduces the compiler-based approach to far memory. Prior approaches leverage either the OS kernel's paging subsystem or a library in userspace. The latter requires code changes, and the former introduces I/O overheads. We present the first approach that uses the compiler for automatic far memory. 
   authors: Brian R. Tauro, Brian Suchy, Simone Campanoni, Peter Dinda, Kyle C. Hale
   image: trackfm.png
+  highlight: 0
   link:
     url: https://dl.acm.org/doi/10.1145/3617232.3624856
     display: Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Vol. 1
   series: "ASPLOS '24"
-  highlight: 1
 
 - title: "EdgeVPN: Self-organizing layer-2 virtual edge networks"
   description: This paper describes the architecture and implementation of EdgeVPN
