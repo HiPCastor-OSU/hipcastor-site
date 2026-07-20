@@ -3,6 +3,7 @@
     framework identifies opportune, memory-intensive code regions, uses static binary instrumention to insert software-directed DVFS transitions in unmodified application code,
     improving performance per Watt for HPC codes. 
   authors: Nanda Velugoti, Joseph Manzano, Andres Marquez, Kyle Hale, Nathan Tallent
+  institutions: [pnnl]
   highlight: 1
   image: mempower.png
   link:
@@ -21,7 +22,8 @@
 
 - title: "QProR: An Efficient Framework for Quantity-of-Interest Based Progressive Retrieval with Guaranteed Error Control"
   description: Developing a progressive retreival framework tailored for known downstream quantities of interest.
-  authors: Wenbo Li, Qian Gong, Xuan Wu, Jieyang Chen, Qing Liu, Xubin He, Norbert Podhorszki, Scott Klasky, and Xin Liang.
+  authors: Wenbo Li, Qian Gong, Xuan Wu, Jieyang Chen, Qing Liu, Xubin He, Norbert Podhorszki, Scott Klasky, and Xin Liang
+  institutions: [ornl, njit, uo, temple]
   link:
     url: 
     display: "to be updated (accepted at HPDC '26)"
@@ -31,6 +33,7 @@
 - title: "FLYING SERVING: On-the-Fly Parallelism Switching for Large Language Model Serving"
   description: Dynamic parallelism switching for efficient large language model serving.
   authors: Shouwei Gao, Junqi Yin, Feiyi Wang, Wenqian Dong
+  institutions: [ornl]
   link:
     url: https://arxiv.org/pdf/2602.22593
     display: "arXiv preprint, 2026 (accepted at ICS '26)"
@@ -39,7 +42,8 @@
 
 - title: "Enabling Homomorphic Analytical Operations on Compressed Scientific Data with Multi-stage Decompression"
   description: Co-designing scientific data compressors with downstream analytics to enable fast data analytics.
-  authors: Xuan Wu, Sheng Di, Tripti Agarwal, Kai Zhao, Xin Liang, Franck Cappello.
+  authors: Xuan Wu, Sheng Di, Tripti Agarwal, Kai Zhao, Xin Liang, Franck Cappello
+  institutions: [anl, utah, fsu]
   link:
     url: https://arxiv.org/abs/2603.25206
     display: "arXiv preprint, 2026 (accepted at ICDE '26)"
@@ -49,6 +53,7 @@
 - title: "Time-varying Vector Field Compression with Preserved Critical Point Trajectories"
   description: Developing specific scientific data compressors which preserve critical point trajectories in time-varying vector fields.
   authors: Mingze Xia, Yuxiao Li, Pu Jiao, Bei Wang, Xin Liang, Hanqi Guo
+  institutions: [ohiostate, utah]
   link:
     url: https://arxiv.org/abs/2510.25143
     display: "arXiv preprint, 2026 (accepted at ICDE '26)"
@@ -58,6 +63,7 @@
 - title: "pMSz: A Distributed Parallel Algorithm for Correcting Extrema and Morse Smale Segmentations in Lossy Compression"
   description: Parallelizing feature-preserving lossy compressors on distributed systems with multiple GPUs.
   authors: Yuxiao Li, Mingze Xia, Xin Liang, Bei Wang, Robert Underwood, Sheng Di, Hemant Sharma, Dishant Beniwal, Franck Cappello, Hanqi Guo.
+  institutions: [anl, ohiostate, utah]
   link:
     url: https://arxiv.org/abs/2601.01787
     display: "arXiv preprint, 2026 (accepted at IPDPS '26)"
@@ -67,6 +73,7 @@
 - title: "Mitigating Artifacts in Pre-quantization Based Scientific Data Compressors with Quantization-aware Interpolation"
   description: Recovering lossily-compressed scientific data with a compression-inspired interpolation algorithm.
   authors: Pu Jiao, Sheng Di, Jiannan Tian, Mingze Xia, Xuan Wu, Yang Zhang, Xin Liang, Franck Cappello.
+  institutions: [anl, oakland]
   link:
     url: https://arxiv.org/abs/2602.20097
     display: "arXiv preprint, 2026 (accepted at IPDPS '26)"
@@ -76,6 +83,7 @@
 - title: "LUMOS: Democratizing SciML Workflows with L0-Regularized Learning for Unified Feature and Parameter Adaptation"
   description: L0-regularized learning for unified feature and parameter adaptation in SciML workflows.
   authors: Shouwei Gao, Xu Zheng, Dongsheng Luo, Di Sheng, Wenqian Dong
+  institutions: [anl, fiu]
   link:
     url: https://arxiv.org/pdf/2602.22537v1
     display: "arXiv preprint, 2026 (accepted at IPDPS '26)"

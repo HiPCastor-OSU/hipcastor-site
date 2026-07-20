@@ -1,0 +1,57 @@
+# Collaborating institutions for publication badges.
+# OSU is the home institution and is intentionally not listed — only external
+# collaborators get a badge. Tag papers in publist.yml with `institutions: [key, ...]`.
+pnnl:
+  name: "Pacific Northwest National Laboratory"
+  logo: pnnl.jpg
+  url: "https://www.pnnl.gov"
+
+ornl:
+  name: "Oak Ridge National Laboratory"
+  logo: ornl.svg
+  url: "https://ornl.gov"
+
+njit:
+  name: "New Jersey Institute of Technology"
+  logo: njit.svg
+  url: "https://njit.edu"
+
+uo:
+  name: "University of Oregon"
+  logo: uo.svg
+  url: "https://uoregon.edu"
+
+temple:
+  name: "Temple University"
+  logo: temple.svg
+  url: "https://temple.edu"
+
+anl:
+  name: "Argonne National Laboratory"
+  logo: anl.png
+  url: "https://www.anl.gov"
+
+utah:
+  name: "University of Utah"
+  logo: utah.svg
+  url: "https://www.utah.edu"
+
+ohiostate:
+  name: "The Ohio State University"
+  logo: ohiostate.svg
+  url: "https://www.osu.edu"
+
+fsu:
+  name: "Florida State University"
+  logo: fsu.svg
+  url: "https://www.fsu.edu"
+
+oakland:
+  name: "Oakland University"
+  logo: oakland.png
+  url: "https://www.oakland.edu"
+
+fiu:
+  name: "Florida International University"
+  logo: fiu.svg
+  url: "https://www.fiu.edu"

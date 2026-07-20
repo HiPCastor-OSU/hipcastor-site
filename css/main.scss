@@ -439,6 +439,68 @@ kbd,
   text-align: center;
 }
 
+/* Featured (highlighted) publication cards — two-column layout */
+.hpc-featured {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  text-align: left;
+}
+.hpc-featured-media {
+  flex: 0 0 220px;
+}
+.hpc-featured-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0;
+  display: block;
+}
+.hpc-featured-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.hpc-featured-series {
+  align-self: flex-start;
+  margin: 0 0 0.6rem;
+}
+.hpc-featured .pubtit {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  margin-bottom: 0.6rem;
+}
+.hpc-featured-desc {
+  margin-bottom: 0.6rem;
+}
+.hpc-featured-authors {
+  margin-bottom: 0.35rem;
+  color: #444;
+}
+.hpc-featured-venue {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.35rem;
+}
+.hpc-featured-news {
+  margin-bottom: 0.2rem;
+}
+@media (max-width: 640px) {
+  .hpc-featured {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hpc-featured-media {
+    flex-basis: auto;
+  }
+  .hpc-featured-img {
+    height: 190px;
+  }
+}
+
 /* Suppress bullets Kramdown generates when mixing inline+block HTML in GFM mode */
 .hpc-item ul, .hpc-item ol {
   list-style: none;
@@ -476,6 +538,114 @@ kbd,
 }
 .hpc-sponsor-logo:hover {
   opacity: 1;
+}
+
+/* Collaborating-institution badges — a rounded tab centered at the bottom of
+   the pub card, its top tucked behind the card so it reads as pulling out from
+   underneath on hover. The space for the rolled-out tab is reserved permanently
+   (constant margin) rather than grown on hover — animating layout on hover
+   shifts the cards below relative to the cursor, which can re-fire hover and
+   leave the tab stuck mid-slide. Reserving it means nothing moves on hover. */
+.hpc-item:has(.hpc-inst-badges) {
+  content-visibility: visible;   /* let the tab overflow the card edge */
+  margin-bottom: 2.4rem;         /* reserved room for the (hover-only) tab */
+}
+.hpc-inst-badges {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(-100%);   /* rest: fully behind the card */
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  gap: 0.5rem;
+  padding: 0.45rem 0.7rem 0.35rem;   /* extra top pad = tuck room without clipping logos */
+  background: #fff;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  z-index: 1;                    /* below the cover lip */
+  opacity: 0;                    /* invisible until hover */
+  pointer-events: none;
+  /* Leaving hover: fade out fast (near the edge) then slide up behind the card,
+     so it never travels up over the card face while still visible. */
+  transition: transform 0.3s ease, opacity 0.12s ease-out;
+}
+.hpc-item:hover .hpc-inst-badges,
+.hpc-item:focus-within .hpc-inst-badges {
+  /* rolled out, but top still tucked behind the card's bottom edge so the tab
+     reads as belonging to the card above it */
+  transform: translateX(-50%) translateY(-4px);
+  opacity: 1;
+  pointer-events: auto;
+  /* Entering hover: slide down out of the card; opacity ramps a touch later so
+     it becomes visible as it clears the bottom edge, not while still behind. */
+  transition: transform 0.34s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.18s ease-out 0.09s;
+}
+/* Cover lip: repaints the card's bottom edge over the tab's tucked top (a child
+   can't be occluded by its parent's own background, so we redraw it here). */
+.hpc-item:has(.hpc-inst-badges)::after {
+  content: "";
+  position: absolute;
+  left: -1.5px;
+  right: -1.5px;
+  bottom: -1.5px;                /* align to the card's border box */
+  height: 13px;
+  background: #fff;
+  border: 1.5px solid rgba(215, 64, 9, 0.20);
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  z-index: 2;                    /* above the tab */
+  pointer-events: none;
+}
+#gridid .hpc-item:has(.hpc-inst-badges):hover::after {
+  border-color: var(--osu-orange);
+}
+.hpc-inst-label {
+  font-size: 0.7rem;
+  font-style: italic;
+  line-height: 1;
+  color: #6c757d;
+  white-space: nowrap;
+}
+.hpc-inst-link {
+  display: inline-flex;
+  pointer-events: auto;
+  line-height: 0;
+}
+.hpc-inst-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+/* Beat `#gridid img` (specificity 1,0,1), which otherwise applies an
+   asymmetric top-heavy margin and rounded corners to the logos. */
+#gridid .hpc-inst-badge {
+  margin: 0;
+  border-radius: 0;
+}
+@media (max-width: 576px) {
+  .hpc-item:has(.hpc-inst-badges) {
+    margin-bottom: 0.5rem;         /* tab is inline on mobile; no reserved space */
+  }
+  .hpc-item:has(.hpc-inst-badges)::after {
+    display: none;
+  }
+  .hpc-inst-badges {
+    position: static;
+    top: auto;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+    padding: 0.3rem 0.5rem;
+  }
+  .hpc-item:hover .hpc-inst-badges,
+  .hpc-item:focus-within .hpc-inst-badges {
+    transform: none;
+  }
 }
 
 /* Respect reduced-motion preference — disable scroll-reveal animations */
@@ -551,6 +721,7 @@ footer p {
 
 /* News item rows — styled like cards but always visible, no reveal animation */
 .hpc-item {
+  position: relative;
   border: 1.5px solid rgba(215, 64, 9, 0.20);
   border-radius: 8px;
   padding: 0.75rem 1rem;
@@ -595,6 +766,7 @@ footer p {
   transform: translateY(-3px);
   border-color: var(--osu-orange);
   box-shadow: 0 4px 14px rgba(215, 64, 9, 0.13);
+  z-index: 5;   /* keep the revealed collab tab above the following card */
 }
 
 /* textlay pages — cards auto-cycle through accent colors, no manual class needed.
