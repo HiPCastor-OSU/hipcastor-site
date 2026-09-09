@@ -192,6 +192,16 @@
   series: "ICML '24"
 
 
+- title: "EphFlow: Cross-Platform FaaS Workflows with Serverless Ephemeral VM Orchestration"
+  description: EphFlow extends FaaSr with on-demand, in-DAG provisioning of ephemeral VMs to transparently overcome serverless resource limits, and a language-agnostic container runtime enabling unmodified, cross-platform, multi-language (Python, R, Julia) FaaS workflows across five platforms (GitHub Actions, AWS Lambda, Google Cloud Run, OpenWhisk, SLURM).
+  authors: Ashish Ramrakhiani, Nolan Cutler, R. Quinn Thomas, Cayelan C. Carey, Austin Delany, Izzy Lerman, Owen Wickman, Renato J. Figueiredo
+  highlight: 1
+  image: ephflow.png
+  link:
+    url: ""
+    display: "Proceedings of the 22nd International IEEE eScience Conference, 2026 (to appear)"
+  series: "eScience '26"
+
 - title: "FaaSr: Cross-Platform Function-as-a-Service Serverless Scientific Workflows in R"
   description: This paper describes the FaaSr system for cross-platform engineless, serverlss execution of scientific workflows
   authors: Sungjae Park, R. Quinn Thomas, Cayelan C. Carey, Austin D. Delany, Yun-Jung Ku, Mary E. Lofton, Renato J. Figueiredo
