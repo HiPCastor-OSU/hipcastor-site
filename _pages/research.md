@@ -51,6 +51,45 @@ hardware/software layer for high-performance computing. In the past, we have dev
 [languages](https://doi.org/10.1145/3453483.3460969), [compilers](https://dl.acm.org/doi/10.1145/3617232.3624856), and [hardware designs](https://ieeexplore.ieee.org/document/8842897) for HPC.
 </div>
 
+### Scientific Data Compression
+<div class="hpc-card">
+Scientific simulations and instruments generate data far faster than it can be
+stored or moved, and data compression is a direct way to address this challenge.
+We design scientific data compressors that provide guarantees on the analysis rather than only on individual data points:
+preserving critical points through
+[sign-of-determinant predicates (ICDE'24)](https://doi.org/10.1109/icde60146.2024.00378),
+topological skeletons in [TspSZ (ICDE'25)](https://doi.org/10.1109/icde65448.2025.00275),
+and critical-point trajectories in
+[time-varying vector fields (ICDE'26)](https://doi.org/10.1109/icde65706.2026.00168).
+Related efforts extend error-controlled compression to
+[unstructured scientific data (IPDPS'25, Best Paper)](https://doi.org/10.1109/ipdps64566.2025.00040),
+improve the efficiency of interpolation-based compressors with
+[adaptive quantization index prediction (IPDPS'25)](https://doi.org/10.1109/ipdps64566.2025.00091),
+[mitigate the artifacts](https://doi.org/10.1109/ipdps65963.2026.00024) that
+pre-quantization-based compressors introduce, and preserve user-specified
+[quantities of interest (VLDB'25)](https://doi.org/10.14778/3742728.3742739).
+We are also making compressed data directly usable, enabling
+[analytical operations to run on compressed representations (ICDE'26)](https://doi.org/10.1109/icde65706.2026.00117)
+through multi-stage decompression instead of full reconstruction.
+</div>
+
+### Progressive Data Management
+<div class="hpc-card">
+Compression alone does not solve data movement: archived data still has to cross
+wide-area networks or return from secondary storage, and different analyses need
+very different levels of accuracy from the same dataset. We work on progressive
+representations, which allow data to be refactored once and then retrieved
+incrementally, so a consumer fetches only as many bits as its target accuracy
+requires rather than the entire dataset. This line of work established
+[error-controlled progressive retrieval under derivable quantities of interest (SC'24)](https://doi.org/10.1109/sc41406.2024.00092),
+scaled refactoring and retrieval to modern GPUs in
+[HP-MDR (SC'25)](https://doi.org/10.1145/3712285.3759845), added guaranteed
+error control for quantity-of-interest-based retrieval in
+[QProR (HPDC'26)](https://doi.org/10.1145/3806645.3807579), and most recently
+improved the quality of the progressive representations themselves through
+adaptive interpolation and coefficient decomposition (SC'26).
+</div>
+
 ### Software-defined virtual networks for edge-to-cloud computing
 <div class="hpc-card">
 While within cloud data centers, nodes can communicate without the presence of
