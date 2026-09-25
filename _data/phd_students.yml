@@ -89,6 +89,18 @@
   number_educ: 1
   education1: MS @ DePaul University (2026)
 
+- name: <a href="https://www.linkedin.com/in/plabon-dutta-780895365">Plabon Dutta</a>
+  photo: plabon.png
+  info: Ph.D. student, since 2026
+  number_educ: 1
+  education1: MEng @ BRAC University (2021)
+
+- name: Benjamin Christensen
+  photo: 
+  info: Ph.D. student, since 2026
+  number_educ: 1
+  education1: BS @ BYU (2026)
+
 - name: "This could be you!"
   photo: rock.jpg
   info: See <a href="../openings">openings</a> for more info
