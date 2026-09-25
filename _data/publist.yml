@@ -1,3 +1,12 @@
+- title: "Improving Progressive Compression with Adaptive Interpolation and Coefficient Decomposition"
+  description: Improving the quality of progressive data representations with adaptive interpolation and coefficient decomposition.
+  authors: Wenbo Li, Xuan Wu, Qian Gong, Pu Jiao, Jieyang Chen, Qing Liu, Norbert Podhorszki, Scott Klasky, and Xin Liang.
+  link:
+    url: ""
+    display: Proceedings of the 39th ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis (to appear)
+  highlight: 0
+  series: "SC '26"
+
 - title: "MemPower: Efficient Power Management with Fine-grained Memory Analysis and Modeling for HPC Workloads"
   description: This paper develops a modeling, analysis, and instrumentation framework to optimize energy for memory-intensive HPC applications. Our novel modeling
     framework identifies opportune, memory-intensive code regions, uses static binary instrumention to insert software-directed DVFS transitions in unmodified application code,
@@ -25,8 +34,8 @@
   authors: Wenbo Li, Qian Gong, Xuan Wu, Jieyang Chen, Qing Liu, Xubin He, Norbert Podhorszki, Scott Klasky, and Xin Liang
   institutions: [ornl, njit, uo, temple]
   link:
-    url: 
-    display: "to be updated (accepted at HPDC '26)"
+    url: "https://dl.acm.org/doi/10.1145/3806645.3807579"
+    display: "HPDC '26"
   highlight: 0
   series: "HPDC '26"
 
@@ -180,6 +189,15 @@
   highlight: 0
   series: ISPDC '25
 
+- title: "Error-controlled Progressive Retrieval of Scientific Data under Derivable Quantities of Interest"
+  description: Enabling progressive retrieval of scientific data with guaranteed error control on derivable quantities of interest.
+  authors: Xuan Wu, Qian Gong, Jieyang Chen, Qing Liu, Norbert Podhorszki, Xin Liang, and Scott Klasky.
+  link:
+    url: https://doi.org/10.1109/SC41406.2024.00092
+    display: Proceedings of the 36th ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis, 2024
+  highlight: 0
+  series: "SC '24"
+
 - title: "Near-term Ecological Forecasting for Climate Change Action"
   description:  Ecological forecasts can be used to predict changes in ecosystems and subsequent impacts on communities. In addition to long-term projections, there is an important need for forecasts in shorter-term decision-making time periods of weeks and months. Scientists at the Ecological Forecasting Initiative are working to advance the field through a process that enables them to continually update model predictions with observed data in order to improve our ability to foresee what may happen in the future.
   authors: Michael Dietze, Ethan P. White, Antoinette Abeyta, Carl Boettiger, Nievita Bueno Watts, Cayelan C. Carey, Rebecca Chaplin-Kramer, Ryan E. Emanuel, S. K. Morgan Ernest, Renato J. Figueiredo, Michael D. Gerst, Leah R. Johnson, Melissa A. Kenney, Jason S. McLachlan, Ioannis Ch. Paschalidis, Jody A. Peters, Christine R. Rollinson, Juniper Simonis, Kira Sullivan-Wiley, R. Quinn Thomas, Glenda M. Wardle, Alyssa M. Willson & Jacob Zwart
@@ -200,6 +218,16 @@
   series: "ICML '24"
 
 
+- title: "EphFlow: Cross-Platform FaaS Workflows with Serverless Ephemeral VM Orchestration"
+  description: EphFlow extends FaaSr with on-demand, in-DAG provisioning of ephemeral VMs to transparently overcome serverless resource limits, and a language-agnostic container runtime enabling unmodified, cross-platform, multi-language (Python, R, Julia) FaaS workflows across five platforms (GitHub Actions, AWS Lambda, Google Cloud Run, OpenWhisk, SLURM).
+  authors: Ashish Ramrakhiani, Nolan Cutler, R. Quinn Thomas, Cayelan C. Carey, Austin Delany, Izzy Lerman, Owen Wickman, Renato J. Figueiredo
+  highlight: 1
+  image: ephflow.png
+  link:
+    url: ""
+    display: "Proceedings of the 22nd International IEEE eScience Conference, 2026 (to appear)"
+  series: "eScience '26"
+
 - title: "FaaSr: Cross-Platform Function-as-a-Service Serverless Scientific Workflows in R"
   description: This paper describes the FaaSr system for cross-platform engineless, serverlss execution of scientific workflows
   authors: Sungjae Park, R. Quinn Thomas, Cayelan C. Carey, Austin D. Delany, Yun-Jung Ku, Mary E. Lofton, Renato J. Figueiredo
@@ -208,6 +236,15 @@
     display: Proceedings of the 20th International IEEE eScience Conference, 2024
   highlight: 0
   series: eScience '24
+
+- title: "Preserving Topological Feature with Sign-of-Determinant Predicates in Lossy Compression: A Case Study of Vector Field Critical Points"
+  description: Preserving critical points in vector fields during lossy compression using sign-of-determinant predicates.
+  authors: Mingze Xia, Sheng Di, Franck Cappello, Pu Jiao, Kai Zhao, Jinyang Liu, Xuan Wu, Xin Liang, and Hanqi Guo.
+  link:
+    url: https://doi.org/10.1109/ICDE60146.2024.00378
+    display: Proceedings of the 40th IEEE International Conference on Data Engineering, 2024
+  highlight: 0
+  series: "ICDE '24"
 
 - title: "TrackFM: Far-out Compiler Support for a Far Memory World"
   description: This paper introduces the compiler-based approach to far memory. Prior approaches leverage either the OS kernel's paging subsystem or a library in userspace. The latter requires code changes, and the former introduces I/O overheads. We present the first approach that uses the compiler for automatic far memory. 
