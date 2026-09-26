@@ -1,0 +1,9 @@
+{% assign mc = include.member %}{% assign mc_url = "" %}{% if mc.name contains 'href' %}{% assign mc_url = mc.name | split: 'href="' | last | split: '"' | first %}{% endif %}<div class="hpc-card" markdown="0">
+  {% if mc_url != "" %}<a href="{{ mc_url }}" class="stretched-link" target="_blank" rel="noopener" aria-label="{{ mc.name | strip_html }}"></a>{% endif %}
+  <img src="{{ '/images/teampic/' | append: mc.photo | relative_url }}" class="img-fluid teampic" alt="{{ mc.name | strip_html }}" loading="lazy" decoding="async" />
+  <div class="member-text">
+    <h4>{{ mc.name | strip_html }}</h4>
+    <em>{{ mc.info }}</em>
+  </div>
+  {% include member-education.html member=mc %}
+</div>

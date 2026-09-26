@@ -178,6 +178,26 @@ p.byline {
 #gridid .row { margin-bottom: 24px; align-items: stretch; }
 #gridid .col-sm-6 { display: flex; }
 #gridid .col-sm-6 .hpc-card { flex: 1; padding-top: 1rem; }
+/* Member cards: photo + text laid out as a centered flex row (education now
+   lives in the hover tab, so the remaining content is vertically centered). */
+#gridid .hpc-card:has(.member-text) {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+#gridid .hpc-card:has(.member-text) .teampic {
+  margin: 0;
+  flex-shrink: 0;
+}
+.member-text {
+  min-width: 0;
+}
+.member-text h4 {
+  margin-bottom: 0.15rem;
+}
+.member-text em {
+  display: block;
+}
 
 /* Grid padding overrides */
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
@@ -644,6 +664,94 @@ kbd,
   }
   .hpc-item:hover .hpc-inst-badges,
   .hpc-item:focus-within .hpc-inst-badges {
+    transform: none;
+  }
+}
+
+/* Member degree history — a tab that rolls out from under the team card on
+   hover (same mechanism as the pub collab tab). Space is reserved permanently
+   on rows that contain a tab, so hovering never shifts layout. */
+#gridid .row:has(.hpc-edu-tab) {
+  margin-bottom: 2.6rem;
+}
+.hpc-edu-tab {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%) translateY(-100%);   /* rest: fully behind the card */
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  line-height: 1;
+  padding: 0.45rem 0.75rem 0.4rem;
+  background: #fff;
+  border: 1.5px solid #111;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+  z-index: 1;                    /* below the cover lip */
+  opacity: 0;                    /* invisible until hover */
+  pointer-events: none;
+  white-space: nowrap;
+  transition: transform 0.3s ease, opacity 0.12s ease-out;   /* leaving: fade fast, then slide up */
+}
+.hpc-card:hover .hpc-edu-tab,
+.hpc-card:focus-within .hpc-edu-tab {
+  transform: translateX(-50%) translateY(-4px);   /* rolled out, top tucked behind card */
+  opacity: 1;
+  pointer-events: auto;
+  transition: transform 0.34s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.18s ease-out 0.09s;
+}
+/* Cover lip: repaints the card's bottom edge over the tab's tucked top. */
+.hpc-card:has(.hpc-edu-tab)::after {
+  content: "";
+  position: absolute;
+  left: -1.5px;
+  right: -1.5px;
+  bottom: -1.5px;
+  height: 14px;
+  background: #fff;
+  border: 1.5px solid rgba(215, 64, 9, 0.30);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  z-index: 2;
+  pointer-events: none;
+}
+.hpc-card:has(.hpc-edu-tab):hover::after {
+  border-color: var(--osu-orange);
+}
+.hpc-edu-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+.hpc-edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.hpc-edu-item {
+  font-size: 0.72rem;
+  color: #333;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+@media (max-width: 576px) {
+  #gridid .row:has(.hpc-edu-tab) {
+    margin-bottom: 24px;
+  }
+  .hpc-card:has(.hpc-edu-tab)::after {
+    display: none;
+  }
+  .hpc-edu-tab {
+    position: static;
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+    margin-top: 0.6rem;
+    box-shadow: none;
+  }
+  .hpc-card:hover .hpc-edu-tab,
+  .hpc-card:focus-within .hpc-edu-tab {
     transform: none;
   }
 }
