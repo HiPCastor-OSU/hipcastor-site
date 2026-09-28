@@ -49,6 +49,20 @@
   number_educ: 1
   education1: BS @ OSU, Oregon, US (2027 est.)
 
+- name: B Gutierrez-Villanueva
+  photo:
+  info: Undergraduate Student
+  email: gutibren@oregonstate.edu
+  number_edu: 1
+  education1: BS @ OSU, Oregon, US
+
+- name: Sang Nguyen
+  photo:
+  info: Undergraduate Student
+  email: nguysang@oregonstate.edu
+  number_edu: 1
+  education1: BS @ OSU, Oregon, US
+
 # - name: <a href="https://github.com/Chelsi-create">Chelsi Jain</a>
 #   photo: Chelsi.jpeg
 #   info: MS Student, since 2023
