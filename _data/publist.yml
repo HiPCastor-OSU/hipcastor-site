@@ -1,3 +1,12 @@
+- title: "EONIAN: A User-Guided Multi-Agent System for Cross-Provider Data Retrieval and Analysis"
+  description: EONIAN introduces a multi-agent framework that decouples workflow state from conversational history via structured JSON representations, enabling stateful orchestration, checkpoint recovery, and human-in-the-loop intervention for long-horizon scientific workflows across heterogeneous data repositories.
+  authors: Zehua Zhu, Michael J. Elliott, Chia-Chen Kuo, Jose A. B. Fortes, Julia A. Jones, Renato J. Figueiredo
+  image: eonian.png
+  link:
+    url: ""
+    display: "2026 IEEE 22nd International Conference on e-Science"
+  series: "eScience '26"
+
 - title: "Improving Progressive Compression with Adaptive Interpolation and Coefficient Decomposition"
   description: Improving the quality of progressive data representations with adaptive interpolation and coefficient decomposition.
   authors: Wenbo Li, Xuan Wu, Qian Gong, Pu Jiao, Jieyang Chen, Qing Liu, Norbert Podhorszki, Scott Klasky, and Xin Liang.
