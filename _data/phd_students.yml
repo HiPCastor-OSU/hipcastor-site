@@ -82,6 +82,22 @@
   number_educ: 1
   education1: BS @ Huazhong University of Science and Technology (2024)
 
+- name: "Shitao You"
+  photo: Shitao.jpg
+  info: Ph.D. student, since 2026
+  email: yoush@oregonstate.edu
+  number_educ: 2
+  education1: MS @ UCLA (2023)
+  education2: BS @ University of Pittsburgh (2022)
+
+- name: "Linze Li"
+  photo: Linze.jpg
+  info: Ph.D. student, since 2026
+  email: lilinz@oregonstate.edu
+  number_educ: 2
+  education1: MS @ University of Chinese Academy of Sciences (2026)
+  education2: BS @ Jilin University (2023)
+
 - name: <a href="https://github.com/Maricaya">Xulu Chu</a>
   photo: xulu.png
   info: Ph.D. student, since 2026
