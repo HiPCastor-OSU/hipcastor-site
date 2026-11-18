@@ -20,13 +20,13 @@
   description: This paper develops a modeling, analysis, and instrumentation framework to optimize energy for memory-intensive HPC applications. Our novel modeling
     framework identifies opportune, memory-intensive code regions, uses static binary instrumention to insert software-directed DVFS transitions in unmodified application code,
     improving performance per Watt for HPC codes. 
-  authors: Nanda Velugoti, Joseph Manzano, Andres Marquez, Kyle Hale, Nathan Tallent
+  authors: Nanda Velugoti, Joseph Manzano, Andres Marquez, Nathan Tallent, Kyle Hale
   institutions: [pnnl]
   highlight: 1
   image: mempower.png
   link:
-    url: ""
-    display: Proceedings of the 28th IEEE International Conference on Cluster Computing (to appear)
+    url: "https://ieeexplore.ieee.org/document/11728392"
+    display: Proceedings of the 28th IEEE International Conference on Cluster Computing
   series: "CLUSTER '26"
 
 - title: "Energy-Aware Test Prioritization for High-Performance Computing: A Multi-Objective Approach"
