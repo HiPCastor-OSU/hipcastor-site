@@ -1,7 +1,15 @@
 - name: <a href="http://haoyu.github.io">Haoyu Wang</a>
   photo: haoyu.png
-  info: MEng Student
+  info: MEng Alum
   email: haoyu@oregonstate.edu
   number_educ: 2
   education1: MEng @ OSU (2025)
   education2: BS @ XHU (2019)
+
+- name: <a href="https://ashish-ramrakhiani.github.io">Ashish Ramrakhiani</a>
+  photo: ashish.jpeg
+  info: MS Alum
+  email: ramrakha@oregonstate.edu
+  number_educ: 2
+  education1: MS @ OSU (2026)
+  education2: BS @ KJSCE, Mumbai, India (2019)
