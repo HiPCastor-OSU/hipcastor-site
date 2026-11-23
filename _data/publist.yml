@@ -1,3 +1,21 @@
+- title: "When Less Work Costs More: Selectivity Inversion of Vector Search on Wafer-Scale Engine"
+  authors: Changqing Li, Sheng Di, Wenqian Dong
+  institutions: [anl]
+  link:
+    url: ""
+    display: "HPCA '27"
+  highlight: 0
+  series: "HPCA '27"
+
+- title: "LLM Agents Meet Lossy Compression: Benchmark, Demystify and Optimize across HPC Architectures"
+  authors: Changqing Li, Sheng Di, Kai Zhao, Wenqian Dong
+  institutions: [anl, fsu]
+  link:
+    url: ""
+    display: "SC '26"
+  highlight: 0
+  series: "SC '26"
+
 - title: "EONIAN: A User-Guided Multi-Agent System for Cross-Provider Data Retrieval and Analysis"
   description: EONIAN introduces a multi-agent framework that decouples workflow state from conversational history via structured JSON representations, enabling stateful orchestration, checkpoint recovery, and human-in-the-loop intervention for long-horizon scientific workflows across heterogeneous data repositories.
   authors: Zehua Zhu, Michael J. Elliott, Chia-Chen Kuo, Jose A. B. Fortes, Julia A. Jones, Renato J. Figueiredo
